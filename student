@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>My Webpage!</title>
+        <style>
+            #top {
+                font-size: 36px;
+                color: blue;
+            }
+            .name {
+                font-weight: bold;
+            }
+            table {
+                border: 3px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 2px solid blue;
+                padding: 5px;
+                width: 30%;
+                text-align: center;
+            }
+            th{
+                background-color:aquamarine;
+            }
+            
+        </style>
+    </head>
+    <body> 
+        <div id="top">
+            This is the <span class="name">top</span> of my page 
+        </div>
+        Hello World!
+        <img src="get365.jpg" height="600" width="600">
+
+        <h1>Basketball players</h1>
+    <table> 
+        <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Number of seasons</th>
+        </tr>
+        <tr>
+        <td>Aleksandar</td>
+        <td>Zivic</td>
+        <td> 9 seasons </td>
+        </tr>
+    </table>
+    <form>
+        <input type="text" placeholder="Full Name" name="name">
+        <button>Submit</button>
+    </form>
+    </body>
+</html>
